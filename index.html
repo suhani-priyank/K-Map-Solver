@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4 Variable K-Map Solver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>4-Variable K-Map Solver</h1>
+
+  <input type="text" id="minterms"
+    placeholder="Enter minterms (0–15) e.g. 0,1,5,7">
+
+  <div class="buttons">
+    <button onclick="generate()">Generate K-Map</button>
+    <button onclick="solve()">Solve K-Map</button>
+    <button class="reset" onclick="resetAll()">Reset</button>
+  </div>
+
+  <p id="sop"></p>
+  <p id="groups"></p>
+  <p id="result"></p>
+
+  <div class="kmap">
+    <div class="cell" data-i="0">0</div>
+    <div class="cell" data-i="1">1</div>
+    <div class="cell" data-i="3">3</div>
+    <div class="cell" data-i="2">2</div>
+
+    <div class="cell" data-i="4">4</div>
+    <div class="cell" data-i="5">5</div>
+    <div class="cell" data-i="7">7</div>
+    <div class="cell" data-i="6">6</div>
+
+    <div class="cell" data-i="12">12</div>
+    <div class="cell" data-i="13">13</div>
+    <div class="cell" data-i="15">15</div>
+    <div class="cell" data-i="14">14</div>
+
+    <div class="cell" data-i="8">8</div>
+    <div class="cell" data-i="9">9</div>
+    <div class="cell" data-i="11">11</div>
+    <div class="cell" data-i="10">10</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

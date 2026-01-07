@@ -1,0 +1,71 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #22c55e;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.reset {
+  background: #ef4444;
+}
+
+.output {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.kmap {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  height: 80px;
+  line-height: 80px;
+  background: #1e293b;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.cell.active {
+  background: #38bdf8;
+  color: black;
+}
