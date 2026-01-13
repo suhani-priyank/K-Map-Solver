@@ -44,11 +44,6 @@ This project helps students understand **digital logic design** by automatically
 
 ---
 
-## 📸 Screenshot
-(Add a screenshot of your project here)
-
----
-
 ## 👩‍💻 Author
 **Suhani Priyank**  
 Frontend Developer & Electronics Enthusiast  
